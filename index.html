@@ -18,12 +18,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
+<!--Link to bootswatch-->
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.2.1/cyborg/bootstrap.min.css" rel="stylesheet" integrity="sha384-e4EhcNyUDF/kj6ZoPkLnURgmd8KW1B4z9GHYKb7eTG3w3uN8di6EBsN2wrEYr8Gc" crossorigin="anonymous">
 
 <!--Link to style css-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
 <!--Link to google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Aleo|Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro|Poiret+One|Poppins|Raleway" rel="stylesheet">
 
 <!--Link to firebase-->
 
@@ -33,43 +35,50 @@
 
     
     <div class="container">
+
+<!--Heading-->
         <div class ="row">
             <div class="col-md-12">
-                <h1>Danielle Dees</h1>
-                    <p>Hi, I'm Danielle Dees.  A full stack web development student at Rutgers University Coding Bootcamp.</p>
-                    <br>
-                    
+                <p class="text-info" id="name">Danielle Dees</p>
             </div>
         </div>
 
-        <hr>
+        <div class ="row">
+                <div class="col-md-12">
+                        <p class="text-info">Full Stack Web Developer</p>
+                        <br>    
+                </div>
+            </div>
 
-        <div class="row">
-            <div class="col-md-2 buttons">
-                <button id="port">Portfolio</button>
+        
+<!--Buttons-->
+
+        <div class="row" id="buttons">
+            <div class="col-md-2">
+                <button type="button" class="btn btn-outline-info" id="port" >Portfolio</button>
             </div>
 
             <div class="col-md-2">
-                <button id="git"> <a href="https://github.com/danielledees" target="_blank">Github</a></button>
-                
+                <button type="button" class="btn btn-outline-info">  <a href="https://github.com/danielledees" target="_blank">Github</a></button>       
             </div>
 
             <div class="col-md-2">
-                <button id="link"> <a href="https://www.linkedin.com/in/danielle-dees-61427217/" target="_blank">LinkedIn</a></button>
+                <button type="button" class="btn btn-outline-info">  <a href="https://www.linkedin.com/in/danielle-dees-61427217/"  target="_blank">LinkedIn</a></button>
             </div>
 
             <div class="col-md-2">
-                <button id="cv">Resume</button>
+                <button type="button" class="btn btn-outline-info">Resume</button>
             </div>
 
             <div class="col-md-2">
-                <button id="cv">Contact</button>
+                <button type="button" class="btn btn-outline-info">Contact</button>
             </div>
-
-
-
 
         </div>
+
+<!--Portfolio Items-->
+
+        <div class
 
 
 
@@ -79,6 +88,10 @@
 
 
     </div>
+
+
+<!--Link to javascript-->
+    <script src="javascript/logic.js"></script>
     
 </body>
 </html>
