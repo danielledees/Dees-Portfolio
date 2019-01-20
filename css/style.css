@@ -3,15 +3,25 @@ body {
     color: darkmagenta;
     font-size: 35px;
     font-family: 'Poiret One', 'cursive';
+    
 
 
 }
+
+
 
 #name {
    font-size: 60px;
-   
-
+  
+  
 }
+
+p {
+    
+   
+}
+
+
 
 .btn-outline-info {
     font-size: 25px;
@@ -19,18 +29,23 @@ body {
     padding: 15px;
 }
 
+.card-body {
+   
+}
 
 
-
+.port-content {
+    margin-inline-start: 35px;
+}
 
 .work {
     width: 300px;
     align-self: center;
 }
-.flex {
+/*.flex {
     display: flex;
     flex-direction: column;
-}
+}*/
 
 .centered {
     width: 300px;
