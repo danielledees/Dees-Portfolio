@@ -7,7 +7,7 @@
     <title>Danielle Dees</title>
 
 <!--Link to jQuery-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <!--Link to reset css-->
     <link rel="stylesheet" type="text/css" href="css/reset.css">
@@ -30,10 +30,11 @@
 <!--Link to firebase-->
 
     <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+
 </head>
 <body>
 
-    
+
     <div class="container">
 
 <!--Heading-->
@@ -45,24 +46,21 @@
 
         <div class ="row">
                 <div class="col-md-12">
-                        <p class="text-info">Full Stack Web Developer</p>
-                        <br>    
+                    <p class="text-info">Full Stack Web Developer</p> 
                 </div>
-            </div>
+        </div>
 
+        <br>
         
 <!--Buttons-->
 
     <!--Portfolio Button-->
     <div class="buttons">
 
-   
         <div class="row">
             <div class="col-md-2">
                 <button type="button" class="btn btn-outline-info" id="port-button">Portfolio</button>
             </div>
-        
-
 
     <!--Github Button-->
 
@@ -92,40 +90,44 @@
 
             </div>
 
-        </div> 
-    </div> <!--End Row for Buttons-->
+        </div> <!--End Row-->
+    </div> <!--End Div for Buttons-->
 
     <!--Contact Form-->
+        <br>
+
             <div class="row" id="contact-form">
                 <div class="col-md-12">
-                    <form>
-                        <fieldset>
-                            <legend class="text-info">Contact Me</legend>
-                          
-                                <div class="form-group">
-                                    <label for="exampleInputEmail1">Email address</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                                </div>
 
+                    <h2 class="text-info">Contact Info:</h2>
+                    <p class="text-info">Email: d.danielle83@gmail.com</p>
+                    <p class="text-info">Phone: 908-240-9703</p>
+
+                    <br>
+                    
+                        <form>
+                            <fieldset>
                                 <div class="form-group">
-                                    <label for="name">Name</label>
+                                    <label for="name" class="text-info">Name</label>
                                     <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Name">
                                 </div>
-            
-            
+
                                 <div class="form-group">
-                                    <label for="exampleTextarea">Message</label>
+                                    <label for="exampleInputEmail1" class="text-info">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                </div>
+                                    
+                                <div class="form-group">
+                                    <label for="exampleTextarea" class="text-info">Message</label>
                                     <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
                                 </div>
-        
-                            <button type="submit" class="btn btn-info">Send</button>
-                        </fieldset>
-                    </form>
+            
+                                <button type="submit" class="btn btn-info">Send</button>
+                            </fieldset>
+                        </form>
+                </div>
             </div>
-        </div>
         
-
-  
 
  <!--Portfolio Content-->       
         <!--row 1-->
@@ -134,66 +136,47 @@
             <br>
             <div class="port-content">
             <div class="row">
+                <div class="col-md-6 flex">
+                    <img src="assets/images/marvel.jpg" class="img-responsive work" alt="Marvel Logo">
+                        <a class="text-info" href="https://danielledees.github.io/Marvel-Team/"></a>
+                            <div class="p-3 mb-2 label text-white centered" style="background-color: black"> <a class="text-info"   href="https://danielledees.github.io/Marvel-Team/" target="blank">Marvel Comic Club</a>
+                            </div>
+                </div>
                     
-                        <div class="col-md-6 flex">
-                            <img src="assets/images/marvel.jpg" class="img-responsive work" alt="Marvel Logo">
-                                <a class="text-info" href="https://danielledees.github.io/Marvel-Team/"></a>
-                                <div class="p-3 mb-2 label text-white centered" style="background-color: black"> <a class="text-info" href="https://danielledees.github.io/Marvel-Team/" target="blank">Marvel Comic           Club</a>
-                                </div>
-                        </div>
-                    
-                
-            
-        
-    <!--Project 2-->           
+            <!--Project 2-->           
            
-                   
-                        <div class="col-md-6 flex">
-                            <img src="assets/images/164874727-train-wallpapers.jpg" class="img-responsive work" alt="Train Tracks">
-                                <a href="https://danielledees.github.io/Train-Schedule/"></a>
-                                <div class="p-3 mb-2 label text-white centered" style="background-color: black"> <a            class="text-info" href="https://danielledees.github.io/Train-Schedule/" target="blank">Train Schedule</a>
-                                </div>
-                        </div>
-                    
-                
+                <div class="col-md-6 flex">
+                    <img src="https://media.giphy.com/media/l41YlHs99JsSptZf2/giphy.gif" class="img-responsive work">
+                        <a href="https://danielledees.github.io/giphy/"></a>
+                            <div class="p-3 mb-2 label text-white centered" style="background-color: black"> <a             class="text-info" href="https://danielledees.github.io/giphy/" target="blank">GifTastic</a>
+                            </div>
+                </div>
             </div>
       
 
-    <!--row 2-->
-    <!--Project 3-->
-        <div class="row">
-            
-                        <div class="col-md-6 flex">
-                            <img src="assets/images/giphy.jpeg" class="img-responsive work" alt="Giphy Logo">
-                                <a href="https://danielledees.github.io/giphy/"></a>
-                                <div class="p-3 mb-2 label text-white centered" style="background-color: black"> <a             class="text-info" href="https://danielledees.github.io/giphy/" target="blank">GifTastic</a>
+     <!--row 2-->
+            <!--Project 3-->
+
+                <div class="row">
+                    <div class="col-md-6 flex">
+                        <img src="assets/images/164874727-train-wallpapers.jpg" class="img-responsive work" alt="Train Tracks">
+                            <a href="https://danielledees.github.io/Train-Schedule/"></a>
+                                <div class="p-3 mb-2 label text-white centered" style="background-color: black"> <a            class="text-info" href="https://danielledees.github.io/Train-Schedule/" target="blank">Train Schedule</a>
                                 </div>
-                        </div>
-                    
-                
+                    </div>
             
-            
+            <!--Project 4-->
 
-    <!--Project 4-->
-
-         
-                
-                        <div class="col-md-6 flex">   
-                            <img src="assets/images/the-end-of-owning-music-2d9aafdb-22e1-435a-9040-3d468837bb0a.jpg" class="img-responsive work" alt="Broken CD">
-                                <a href="https://danielledees.github.io/TriviaGame/"></a>
-                                    <div class="p-3 mb-2 label text-white centered" style="background-color: black"> <a        class="text-info" href="https://danielledees.github.io/TriviaGame/" target="blank">Music Trivia Game</a>
-                                    </div>
-                        </div>
-                    
-                
-            
-
-        </div>
-
-    </div>
-
-
+                    <div class="col-md-6 flex">   
+                        <img src="assets/images/the-end-of-owning-music.jpg" class="img-responsive work" alt="Broken CD">
+                             <a href="https://danielledees.github.io/TriviaGame/"></a>
+                                <div class="p-3 mb-2 label text-white centered" style="background-color: black"> <a        class="text-info" href="https://danielledees.github.io/TriviaGame/" target="blank">Music Trivia Game</a>
+                                </div>
+                    </div>  
+                </div>
+            </div> <!--End Portfolio Content-->
     
+
     </div> <!--End Container-->
 
     

@@ -1,9 +1,6 @@
 $( document ).ready(function() {
     console.log( "ready!" );
 
-//click portfolio button to show images and links to work
-//click resume button to link to pdf 
-//click contact to show contact form
 
 $("#contact-form").hide()
 $(".port-content").hide()
@@ -20,7 +17,6 @@ $("#port-button").on("click", function() {
     $("#contact-form").hide()
 
 })
-
 
 
 });
